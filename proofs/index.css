@@ -1,7 +1,22 @@
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .screen {
   width: 100%;
+}
+
+.container_ {
+  width: 100%;
+  border: 3px dashed rgb(255, 55, 55);
+}
+.title {
+  color: brown;
+  text-align: center;
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
 }
